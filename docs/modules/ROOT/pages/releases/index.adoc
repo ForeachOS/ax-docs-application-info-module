@@ -1,0 +1,34 @@
+= ApplicationInfoModule releases
+
+[[module-artifact]]
+== Artifact
+
+[source,xml]
+----
+<dependencies>
+    <dependency>
+        <groupId>com.foreach.across.modules</groupId>
+        <artifactId>application-info-module</artifactId>
+    </dependency>
+</dependencies>
+----
+
+== Release notes
+
+ApplicationInfoModule follows a https://semver.org[semantic versioning] scheme.
+
+* xref:releases/1.x.adoc#1-0-1[1.0.1]
+
+[[module-dependencies]]
+== Module dependencies
+
+|===
+|Module |Type |Description
+
+|{debug-web-module-url}[DebugWebModule]
+|extension
+|Registers an application info overview as dashboard page for debug web.
+
+|{admin-web-module-url}[AdminWebModule]
+|extension
+|Will use the configured application name and id as default settings for admin web.

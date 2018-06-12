@@ -1,0 +1,12 @@
+= 1.x.x release notes
+
+[#1-0-1]
+== 1.0.1.RELEASE
+This version introduces a couple of breaking changes:
+
+* Package has been renamed from *com.foreach.across.module* to *com.foreach.across.modules*.
+* If DebugWebModule present, DebugWebModule version should be at least 1.0.1
+* If AdminWebModule present, AdminWebModule version should be at least 1.1.1
+
+== 1.0.0.RELEASE
+Initial public release available on http://search.maven.org/[Maven central].

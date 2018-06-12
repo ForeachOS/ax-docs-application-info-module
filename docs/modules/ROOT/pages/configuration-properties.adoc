@@ -1,0 +1,48 @@
+= Module settings
+
+|===
+|Property |Type |Description |Default
+
+|applicationInfo.application-id
+|`String`
+| Internal id of the application.
+|_unknown_
+
+|applicationInfo.application-name
+|`String`
+| Descriptive name of the application.
+|_null_
+
+|applicationInfo.environment-id
+|`String`
+| Internal id of the environment the application is running in.
+|_unknown_
+
+|applicationInfo.environment-name
+|`String`
+| Descriptive name of the environment the application is running in.
+|_null_
+
+|applicationInfo.host-name
+|`String`
+| Name for the infrastructure hosting the application.
+|Auto-detected.
+
+|applicationInfo.build-id
+|`String`
+| Id of the running build of the application.
+|_unknown_
+
+|applicationInfo.build-date
+|`Date`
+| Timestamp when this build was created.
+|_null_
+
+|applicationInfo.startup-date
+|`Date`
+|Timestamp when the application should be considered started.
+|Across context bootstrap time.
+
+|===
+
+NOTE: Timestamps in property files should be provided in *yyyy-MM-dd HH:mm:ss* format.
