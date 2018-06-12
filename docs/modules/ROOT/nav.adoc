@@ -4,3 +4,5 @@
 ** xref:releases/1.x.adoc[1.x]
 
 * xref:configuration-properties.adoc[Configuration properties]
+
+* xref:integration.adoc[Integration with other modules]
