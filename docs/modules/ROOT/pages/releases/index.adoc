@@ -25,10 +25,10 @@ ApplicationInfoModule follows a https://semver.org[semantic versioning] scheme.
 |===
 |Module |Type |Description
 
-|{debug-web-module-url}[DebugWebModule]
+|{url-DebugWebModule}[DebugWebModule]
 |extension
 |Registers an application info overview as dashboard page for debug web.
 
-|{admin-web-module-url}[AdminWebModule]
+|{url-AdminWebModule}[AdminWebModule]
 |extension
 |Will use the configured application name and id as default settings for admin web.

@@ -1,11 +1,11 @@
 = Integration with other modules
 
 == DebugWebModule
-{module-name} provides a debug web controller that displays the `AcrossApplicationInfo` settings.
+ApplicationInfoModule provides a debug web controller that displays the `AcrossApplicationInfo` settings.
 This controller is available on the */applicationInfo* path relative to the debug web root.
 
-If no explicit debug web dashboard has been configured, the {module-name} will also configure the application info controller as dashboard.
+If no explicit debug web dashboard has been configured, the ApplicationInfoModule will also configure the application info controller as dashboard.
 
 == AdminWebModule
-If AdminWebModule is present the {module-name} will automatically set the properties *adminWebModule.title* and *adminWebModule.login.rememberMe.cookie* based on the application info.
+If AdminWebModule is present the ApplicationInfoModule will automatically set the properties *adminWebModule.title* and *adminWebModule.login.rememberMe.cookie* based on the application info.
 This will only happen if those properties have not yet been defined through some other means.
