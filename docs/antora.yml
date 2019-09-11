@@ -1,5 +1,5 @@
 name: application-info-module
 title: "Module: Application Info"
-version: master
+version: 2.0.0-SNAPSHOT
 nav:
 - modules/ROOT/nav.adoc
