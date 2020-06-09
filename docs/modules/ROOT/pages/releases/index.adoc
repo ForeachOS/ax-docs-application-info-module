@@ -32,3 +32,4 @@ ApplicationInfoModule follows a https://semver.org[semantic versioning] scheme.
 |{url-AdminWebModule}[AdminWebModule]
 |extension
 |Will use the configured application name and id as default settings for admin web.
+|===
