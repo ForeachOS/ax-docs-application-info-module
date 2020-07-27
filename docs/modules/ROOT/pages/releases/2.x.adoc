@@ -3,7 +3,7 @@
 [#2-0-0]
 == 2.0.0.RELEASE
 
-Across 5.0.0 is now required.
+Across 5.0.1 is now required.
 
 === Extension module
 ApplicationInfoModule configuration has been modified to extend the new AcrossContextInfrastructureModule configuration.
