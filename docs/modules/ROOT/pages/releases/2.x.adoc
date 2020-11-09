@@ -1,12 +1,18 @@
 = 2.x.x release notes
 
+[#2-1-0]
+== 2.1.0.RELEASE
+
+* Switched to JUnit5
+
 [#2-0-0]
 == 2.0.0.RELEASE
 
 Across 5.0.1 is now required.
 
 === Extension module
+
 ApplicationInfoModule configuration has been modified to extend the new AcrossContextInfrastructureModule configuration.
 It no longer starts its own `ApplicationContext`.
 
-Most applications should have no effect from this, but bean autowiring qualified with `@Module(ApplicationInfoModule.NAME)` will fail.
+Most applications should have kno effect from this, but bean autowiring qualified with `@Module(ApplicationInfoModule.NAME)` will fail.
